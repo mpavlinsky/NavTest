@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface RotationProxyNavController : UINavigationController
 @end
 
+@interface ColoredVC : UIViewController
+@end
+
+@interface LandscapeVC : ColoredVC
+@end
+
+@interface PortraitVC : ColoredVC
+@end

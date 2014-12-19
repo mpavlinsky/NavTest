@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D74E0491A437B2600AD6DDC /* PPHReturnToCartTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D74E0481A437B2600AD6DDC /* PPHReturnToCartTransition.m */; };
 		1DF17BBC1A433532004CEF8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF17BBB1A433532004CEF8A /* main.m */; };
 		1DF17BBF1A433532004CEF8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF17BBE1A433532004CEF8A /* AppDelegate.m */; };
 		1DF17BC21A433532004CEF8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF17BC11A433532004CEF8A /* ViewController.m */; };
-		1DF17BC51A433532004CEF8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF17BC31A433532004CEF8A /* Main.storyboard */; };
 		1DF17BC71A433532004CEF8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF17BC61A433532004CEF8A /* Images.xcassets */; };
-		1DF17BCA1A433532004CEF8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DF17BC81A433532004CEF8A /* LaunchScreen.xib */; };
 		1DF17BD61A433532004CEF8A /* NavTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF17BD51A433532004CEF8A /* NavTestTests.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D74E0471A437B2600AD6DDC /* PPHReturnToCartTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPHReturnToCartTransition.h; sourceTree = "<group>"; };
+		1D74E0481A437B2600AD6DDC /* PPHReturnToCartTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPHReturnToCartTransition.m; sourceTree = "<group>"; };
 		1DF17BB61A433532004CEF8A /* NavTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF17BBA1A433532004CEF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DF17BBB1A433532004CEF8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,9 +35,7 @@
 		1DF17BBE1A433532004CEF8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1DF17BC01A433532004CEF8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1DF17BC11A433532004CEF8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1DF17BC41A433532004CEF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DF17BC61A433532004CEF8A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1DF17BC91A433532004CEF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1DF17BCF1A433532004CEF8A /* NavTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF17BD41A433532004CEF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DF17BD51A433532004CEF8A /* NavTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavTestTests.m; sourceTree = "<group>"; };
@@ -81,13 +80,13 @@
 		1DF17BB81A433532004CEF8A /* NavTest */ = {
 			isa = PBXGroup;
 			children = (
+				1D74E0471A437B2600AD6DDC /* PPHReturnToCartTransition.h */,
+				1D74E0481A437B2600AD6DDC /* PPHReturnToCartTransition.m */,
 				1DF17BBD1A433532004CEF8A /* AppDelegate.h */,
 				1DF17BBE1A433532004CEF8A /* AppDelegate.m */,
 				1DF17BC01A433532004CEF8A /* ViewController.h */,
 				1DF17BC11A433532004CEF8A /* ViewController.m */,
-				1DF17BC31A433532004CEF8A /* Main.storyboard */,
 				1DF17BC61A433532004CEF8A /* Images.xcassets */,
-				1DF17BC81A433532004CEF8A /* LaunchScreen.xib */,
 				1DF17BB91A433532004CEF8A /* Supporting Files */,
 			);
 			path = NavTest;
@@ -199,8 +198,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DF17BC51A433532004CEF8A /* Main.storyboard in Resources */,
-				1DF17BCA1A433532004CEF8A /* LaunchScreen.xib in Resources */,
 				1DF17BC71A433532004CEF8A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +218,7 @@
 			files = (
 				1DF17BC21A433532004CEF8A /* ViewController.m in Sources */,
 				1DF17BBF1A433532004CEF8A /* AppDelegate.m in Sources */,
+				1D74E0491A437B2600AD6DDC /* PPHReturnToCartTransition.m in Sources */,
 				1DF17BBC1A433532004CEF8A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +240,6 @@
 			targetProxy = 1DF17BD01A433532004CEF8A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1DF17BC31A433532004CEF8A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1DF17BC41A433532004CEF8A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1DF17BC81A433532004CEF8A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1DF17BC91A433532004CEF8A /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1DF17BD71A433532004CEF8A /* Debug */ = {
@@ -344,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NavTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NavTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +393,7 @@
 				1DF17BDB1A433532004CEF8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DF17BDC1A433532004CEF8A /* Build configuration list for PBXNativeTarget "NavTestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +402,7 @@
 				1DF17BDE1A433532004CEF8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
